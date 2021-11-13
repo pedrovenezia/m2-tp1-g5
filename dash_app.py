@@ -17,7 +17,7 @@ available_indicators = data.material.unique()
 app.layout = html.Div([
 
     html.Div([html.Img(src=app.get_asset_url('untref.png'), style={'margin': 'auto'}),
-              html.H1("Aislamiento de una pared monolítica", style={'float':'right',
+              html.H1("Calculo del Indice de Reduccion sonora aparante de una pared simple", style={'float':'right',
                 'font-family': 'verdana', 'width':'50%'})],
                 style={'vertical-align': 'top'}),
 
