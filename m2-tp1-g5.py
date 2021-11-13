@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np 
 
 class Calculadora_TL():
-    '''clase para calcular tl de diversos materiales con diferentes métodoss
+    '''clase para calcular tl de diversos materiales con diferentes métodos
     :input
         data_path = str. Data path
         t = espesor
