@@ -5,7 +5,7 @@ from dash.dependencies import Input, Output
 import plotly.express as px
 import plotly.graph_objects as go
 import pandas as pd
-from Calculadora_TL import Calculadora_TL
+from m2-tp1-g5 import Calculadora_TL
 
 app = dash.Dash(__name__)
 app.title = 'Calculadora TL'
